@@ -18,6 +18,14 @@ h2 {
   font-size: 4em;
 }
 
+h5 {
+  font-size: 3em;
+}
+
+h6 {
+  font-size: 0.8em;
+}
+
 h2.name {
   display: inline-block;
   text-align: left;
@@ -38,35 +46,48 @@ body {
   font-size: 1.8rem;
 }
 
-.intro {
+section.intro {
   background-color: #6CDCA0;
-  font-size: 1.8em;
-  display: block;
+  font-size: 1.5em;
+  display: inline-block;
   text-align: center;
 }
 
-.projects {
+article.projects {
   background-image: url("/images/projects.png");
+  font-size: 3em;
   padding: 80px;
   text-align: center;
 }
 
-.huddle {
+article.huddle {
   background-image: url("/images/huddlelogo.png");
   text-align: center;
   padding-top: 150px;
 }
 
-.Connect {
-  background-color: #D1DB5F;
+article.soon {
+  background-image: url("/images/comingsoon.png");
+  font-size: 3em;
+  padding: 80px;
+  text-align: center;
 }
 
-button {
-  font-size: 1.8em;
-}
+section.Connect {
+  background-color: #D1DB5F;
+  font-size: 1.6em;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
 
 .made {
-  font-size: 2em;
-  display: inline-block;
+  font-size: 0.8em;
+  text-align: center;
+  display: block;
   background-color: #303030;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
