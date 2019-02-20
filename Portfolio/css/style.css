@@ -4,23 +4,33 @@
 
 html {
   font-size: 10px;
+  font-family: "Lato", serif;
+  color: #FFFEEC;
 }
 
 header {
   background-color: #303030;
-}
-
-header.img {
-  
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 h2 {
-  color: #FFFEEC;
+  font-size: 4em;
+}
+
+h2.name {
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 15px;
 }
 
 nav {
+  display: inline-block;
+  font-size: 1.4em;
   color: #FFFEEC;
-  float: right
+  padding-top: 20px;
+  padding-bottom: 12px;
 }
 
 body {
@@ -28,22 +38,35 @@ body {
   font-size: 1.8rem;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    width: 80%;
-  }
+.intro {
+  background-color: #6CDCA0;
+  font-size: 1.8em;
+  display: block;
+  text-align: center;
 }
 
-@media @supports and (min-width: 1025px) {
-  .container {
-    margin: 0 auto;
-    padding-bottom: 100px;
-    width: 100rem;
-  }
+.projects {
+  background-image: url("/images/projects.png");
+  padding: 80px;
+  text-align: center;
+}
 
-  section {
-    float: left;
-    margin: 1%;
-    width: 48%;
-  }
+.huddle {
+  background-image: url("/images/huddlelogo.png");
+  text-align: center;
+  padding-top: 150px;
+}
+
+.Connect {
+  background-color: #D1DB5F;
+}
+
+button {
+  font-size: 1.8em;
+}
+
+.made {
+  font-size: 2em;
+  display: inline-block;
+  background-color: #303030;
 }
