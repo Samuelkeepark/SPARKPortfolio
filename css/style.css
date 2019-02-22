@@ -3,112 +3,105 @@
   align-items: auto;
 }
 
+/* font stuff */
+html {
+  font-size: 10px;
+  font-family: "Lato", serif;
+}
+
+/* home page font color */
 html.home {
-  font-size: 10px;
-  font-family: "Lato", serif;
   color: #FFFEEC;
 }
 
-html.project {
-  font-size: 10px;
-  font-family: "Lato", serif;
-  color: #303030;
-}
-
-header {
-  background-color: #303030;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
+/* text sizes */
 h2 {
-  font-size: 4em;
+  font-size: 5rem;
 }
 
-h5 {
-  font-size: 3em;
-  margin
+h3 {
+  font-size: 4rem;
 }
 
-h6 {
-  font-size: 0.8em;
+h4 {
+  font-size: 3rem;
 }
 
-h2.name {
-  display: inline-block;
-  text-align: left;
-  padding-left: 10px;
-  padding-bottom: 15px;
+p {
+  font-size: 3.5rem;
+}
+
+/* header qualities */
+header {
+  align-items: center;
+  background-color: #303030;
+  display: flex;
+  padding: 2rem 2rem;
+}
+
+.name {
+  padding: 2rem;
+  flex: 1;
+}
+
+a {
   color: #FFFEEC;
-}
-
-nav {
-  color: #FFFEEC;
-  display: inline;
-  font-size: .5em;
-  padding-top: 20px;
-  padding-bottom: 12px;
-  padding-left: 75px;
+  font-size: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 body {
-  background-color: white;
-  font-size: 1.8rem;
+  background-color: #FFFEEC;
 }
 
-section.intro {
+/* intro section */
+.intro {
   background-color: #6CDCA0;
-  font-size: 1.5em;
-  display: inline-block;
+  padding: 5rem 8rem;
   text-align: center;
 }
 
-article.projects {
+/* project banner */
+.projects {
   background-image: url("/images/projects.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  font-style: bold;
-  font-size: 3em;
-  padding: 80px;
+  background-size: 105%;
+  margin-bottom: .2rem;
+  padding: 10rem;
   text-align: center;
-  width: 100%;
 }
 
-article.huddle {
+/* huddle project */
+.huddle {
   background-image: url("/images/huddlelogo.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100.5%;
+  margin-bottom: .2rem;
+  padding-top: 17rem;
+  padding-bottom: 5rem;
   text-align: center;
-  padding-top: 150px;
-  width: 100%
 }
 
-article.soon {
+/* coming soon */
+.soon {
   background-image: url("/images/comingsoon.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  font-size: 3em;
-  font-style: bold;
-  padding: 80px;
+  background-size: 105%;
+  padding: 10rem;
   text-align: center;
-  width: 100%
 }
 
-section.Connect {
+/* connect with me */
+.connect {
   background-color: #D1DB5F;
-  font-size: 1.6em;
+  padding: 2.5rem 0rem;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  }
+}
 
-section.made {
-  font-size: 0.8em;
-  text-align: center;
-  display: block;
+/* made by */
+.made {
   background-color: #303030;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: center;
+  padding: 1rem 0rem;
 }
