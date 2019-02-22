@@ -1,11 +1,18 @@
-* {
+*, *:before, *:after {
   box-sizing: border-box;
+  align-items: auto;
 }
 
-html {
+html.home {
   font-size: 10px;
   font-family: "Lato", serif;
   color: #FFFEEC;
+}
+
+html.project {
+  font-size: 10px;
+  font-family: "Lato", serif;
+  color: #303030;
 }
 
 header {
@@ -20,6 +27,7 @@ h2 {
 
 h5 {
   font-size: 3em;
+  margin
 }
 
 h6 {
@@ -31,14 +39,16 @@ h2.name {
   text-align: left;
   padding-left: 10px;
   padding-bottom: 15px;
+  color: #FFFEEC;
 }
 
 nav {
-  display: inline-block;
-  font-size: 1.4em;
   color: #FFFEEC;
+  display: inline;
+  font-size: .5em;
   padding-top: 20px;
   padding-bottom: 12px;
+  padding-left: 75px;
 }
 
 body {
@@ -55,22 +65,33 @@ section.intro {
 
 article.projects {
   background-image: url("/images/projects.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-style: bold;
   font-size: 3em;
   padding: 80px;
   text-align: center;
+  width: 100%;
 }
 
 article.huddle {
   background-image: url("/images/huddlelogo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   text-align: center;
   padding-top: 150px;
+  width: 100%
 }
 
 article.soon {
   background-image: url("/images/comingsoon.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-size: 3em;
+  font-style: bold;
   padding: 80px;
   text-align: center;
+  width: 100%
 }
 
 section.Connect {
@@ -81,7 +102,7 @@ section.Connect {
   padding-bottom: 20px;
   }
 
-.made {
+section.made {
   font-size: 0.8em;
   text-align: center;
   display: block;
