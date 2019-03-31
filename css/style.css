@@ -18,6 +18,10 @@ html.project {
   color: #303030;
 }
 
+.am {
+  color: #303030;
+}
+
 /* text sizes */
 h2 {
   font-size: 5rem;
@@ -36,7 +40,7 @@ h5 {
 }
 
 p {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 /* header qualities */
@@ -95,7 +99,36 @@ body.huddleproject {
   padding-bottom: 3rem;
 }
 
+/*ABOUT ME*/
+.pictura {
+  background-image: url("/images/samparkpic.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 70rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+}
 
+.abc {
+  padding-left: 5rem;
+  padding-bottom: 5rem;
+}
+
+.boutme {
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 10rem;
+}
+
+.factsb {
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 15rem;
+}
 
 /* project banner */
 .projects {
@@ -261,7 +294,20 @@ button {
 /* made by */
 .made {
   background-color: #303030;
+  font-size: 1.1em;
   color: #FFFEEC;
   text-align: center;
   padding: 1rem 0rem;
+}
+
+@media all and (max-width: 959px) and (min-width: 768px) {
+    html{
+        font-size: 16px;
+      }
+}
+
+@media all and (max-width: 1440px) and (min-width: 1025px) {
+    html{
+        font-size: 18px;
+      }
 }
